@@ -9,45 +9,45 @@ Change the Generation Method in the inspector
 
 # How to Use
 ## ALL
-Grid X Value => Width of the map
-Grid Y Value => Heigth of the map
-Seed => seed of the random numbers
+Grid X Value => Width of the map <br>
+Grid Y Value => Heigth of the map <br>
+Seed => seed of the random numbers <br>
 
 ## Simple Room Placement
-Max Steps => number of time the program tries to places rooms
-Max Rooms
-Width => min / max width of the room
-Heigth => min / max heigth of the room
-Step delay => time in millisecond between each room placement
+Max Steps => number of time the program tries to places rooms <br>
+Max Rooms => Max Number of room in the map <br>
+Width => min / max width of the room <br>
+Heigth => min / max heigth of the room <br>
+Step delay => time in millisecond between each room placement <br>
 
 ## Binary Space Partition
-Horizontal Split Chance => splitting the map horizontaly
-Max Split Attempt => number of time the program tries to split the map before stoping
-Leaf Min Size => minimum size of the area containing the room
-Room min Size => minimun size of the room
-Room max Size => maximun size of the room
+Horizontal Split Chance => splitting the map horizontaly <br>
+Max Split Attempt => number of time the program tries to split the map before stoping <br>
+Leaf Min Size => minimum size of the area containing the room <br>
+Room min Size => minimun size of the room <br>
+Room max Size => maximun size of the room <br>
 
 ## Cellular Automata
-Max Steps => number of time 
-Noise => percentage of starting ground
-Chunk Size => not implemented
-Number Of Cell To Change => number of cell of a certain type a cell need to become that type
+Max Steps => number of time  <br>
+Noise => percentage of starting ground <br>
+Chunk Size => not implemented <br>
+Number Of Cell To Change => number of cell of a certain type a cell need to become that type <br>
 
 ## Noise
-NoiseType
-Frequency
+NoiseType <br>
+Frequency <br>
 
-Fractal Type
-Octaves
-Nunarity
-Gain
-Weighted Strength
-Pingpong Strength
+Fractal Type <br>
+Octaves <br>
+Nunarity <br>
+Gain <br>
+Weighted Strength <br>
+Pingpong Strength <br>
 
-Domain Warp Type
-Domain Warp
+Domain Warp Type <br>
+Domain Warp <br>
 
-Water
-Sand
-Grass
-Rock
+Water <br>
+Sand <br>
+Grass <br>
+Rock <br>
