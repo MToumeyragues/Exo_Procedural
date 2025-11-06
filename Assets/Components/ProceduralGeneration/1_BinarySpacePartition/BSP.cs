@@ -1,6 +1,7 @@
-using System.Threading;
 using Components.ProceduralGeneration;
 using Cysharp.Threading.Tasks;
+using System.Threading;
+using Unity.Mathematics;
 using UnityEngine;
 using VTools.Grid;
 using VTools.ScriptableObjectDatabase;
@@ -16,6 +17,14 @@ public class BSP : ProceduralGenerationMethod
 
     protected override async UniTask ApplyGeneration(CancellationToken cancellationToken)
     {
+        var main = Camera.main;
+        var value = math.max(Grid.Width, Grid.Lenght);
+        if (main)
+        {
+            main.orthographicSize = value / 2;
+            main.transform.position = new Vector3(value / 2, 20, value / 2);
+        }
+
         var allGrid = new RectInt(0, 0, Grid.Width, Grid.Lenght);
         var root = new Node(allGrid);
         Cut(root, _cutnumber);
