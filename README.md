@@ -8,6 +8,8 @@ Change the Generation Method in the inspector
 # What it does
 
 # How to Use
+Set the value then Play
+You can also change the value while running then press Generate Grid
 ## ALL
 Grid X Value => Width of the map <br>
 Grid Y Value => Heigth of the map <br>
