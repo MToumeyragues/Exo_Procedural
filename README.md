@@ -10,8 +10,8 @@ Change the Generation Method in the inspector
  
 | Algorithm  | Description |
 | - | - |
-| Simple Room Placement | Generate rooms randomly in a set grid <picture><img src="Simple Room Placement.gif" alt="" /> </picture> |
-| Binary Space Partition | Generate rooms recursively subdivides the grid to place the rooms <picture><img src="BSP.png" alt="" /> </picture>|
+| Simple Room Placement | Generate rooms randomly in a set grid then link them <picture><img src="Simple Room Placement.gif" alt="" /></picture> |
+| Binary Space Partition | Generate rooms recursively subdivides the grid to place the rooms then link them <picture><img src="BSP.png" alt="" /> </picture>|
 | Cellular Automata | Generate random terrain then evolve <picture><img src="Cellular Automata.gif" alt="" /> </picture>|
 | Noise | Generate random terrain <picture><img src="Noise.png" alt="" /> </picture>|
 
@@ -71,7 +71,7 @@ You can also change the value while running then press Generate Grid
 
 | Algorithm  | Description |
 | - | - |
-| Simple Room Placement |  |
-| Binary Space Partition |  |
-| Cellular Automata | |
+| Simple Room Placement | The algoritm try to place a room, if it can't it try again with an other room until the max room number is reached or the max steps number is reached|
+| Binary Space Partition | The algoritm recursively subdivide, this process of subdividing gives rise to a representation of objects within the space in the form of a tree. Then it place rooms in the leafs of the tree|
+| Cellular Automata | A cellular automaton consists of a regular grid of cells. For each cell, it call its neighbors, then according to some fixed rule it determines the new state of each cell|
 | Noise | It use <a href="https://github.com/Auburn/FastNoiseLite">FastNoiseLite</a> |
