@@ -12,8 +12,9 @@ Change the Generation Method in the inspector
 | ------------- | ------------- |
 | Simple Room Placement | Generate rooms randomly in a set grid |
 | Binary Space Partition | Generate rooms recursively subdivides the grid to place the rooms |
-| Cellular Automata | Generate random terrain then evolve|
+| Cellular Automata | Generate random terrain then evolve <picture><img src="Cellular Automata.gif" alt="" /> </picture>|
 | Noise | Generate random terrain |
+
 
 # How to Use
 Set the value then Play
