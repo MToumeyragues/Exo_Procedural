@@ -9,11 +9,11 @@ Change the Generation Method in the inspector
  
  
 | Algorithm  | Description |
-| ------------- | ------------- |
-| Simple Room Placement | Generate rooms randomly in a set grid |
-| Binary Space Partition | Generate rooms recursively subdivides the grid to place the rooms |
-| Cellular Automata |<p style="text-align: center;"> Generate random terrain then evolve <picture><img src="Cellular Automata.gif" alt="" /> </picture> </p>|
-| Noise | Generate random terrain |
+| - | - |
+| Simple Room Placement | Generate rooms randomly in a set grid <picture><img src="Simple Room Placement.gif" alt="" /> </picture> |
+| Binary Space Partition | Generate rooms recursively subdivides the grid to place the rooms <picture><img src="BSP.png" alt="" /> </picture>|
+| Cellular Automata | Generate random terrain then evolve <picture><img src="Cellular Automata.gif" alt="" /> </picture>|
+| Noise | Generate random terrain <picture><img src="Noise.png" alt="" /> </picture>|
 
 
 # How to Use
@@ -21,14 +21,14 @@ Set the value then Play
 You can also change the value while running then press Generate Grid
 ## ALL
 | Value | Description |
-| ------------- | ------------- |
+| - | - |
 | Grid X Value | Width of the map |
 | Grid Y Value | Heigth of the map |
 | Seed | Seed of the random numbers |
 
 ## Simple Room Placement
 | Value | Description |
-| ------------- | ------------- |
+| - | - |
 | Max Steps | Number of time the program tries to places rooms |
 | Max Rooms | Max Number of room in the map |
 | Width | Min / Max width of the room |
@@ -37,7 +37,7 @@ You can also change the value while running then press Generate Grid
 
 ## Binary Space Partition
 | Value | Description |
-| ------------- | ------------- |
+| - | - |
 | Horizontal Split Chance | Splitting the map horizontaly |
 | Max Split Attempt | Number of time the program tries to split the map before stoping |
 | Leaf Min Size | Minimum size of the area containing the room |
@@ -46,7 +46,7 @@ You can also change the value while running then press Generate Grid
 
 ## Cellular Automata
 | Value | Description |
-| ------------- | ------------- |
+| - | - |
 | Max Steps | Number of time |
 | Noise | Percentage of starting ground |
 | Chunk Size | Not implemented |
@@ -54,7 +54,7 @@ You can also change the value while running then press Generate Grid
 
 ## Noise
 | Value | Description |
-| ------------- | ------------- |
+| - | - |
 | NoiseType | |
 | Frequency | |
 | Fractal Type | |
@@ -66,3 +66,12 @@ You can also change the value while running then press Generate Grid
 | Domain Warp Type | |
 | Domain Warp | |
 | Water/Sand/Grass/Rock | |
+
+# How it Works
+
+| Algorithm  | Description |
+| - | - |
+| Simple Room Placement |  |
+| Binary Space Partition |  |
+| Cellular Automata | |
+| Noise | It use <a href="https://github.com/Auburn/FastNoiseLite">FastNoiseLite</a> |
