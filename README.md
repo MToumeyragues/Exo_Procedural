@@ -55,7 +55,7 @@ You can also change the value while running then press Generate Grid
 ## Noise
 | Value | Description |
 | - | - |
-| NoiseType | |
+| NoiseType | OpenSimplex2/OpenSimplex2S/Cellular (Voronoi)/Perlin noise |
 | Frequency | |
 | Fractal Type | |
 | Octaves | |
