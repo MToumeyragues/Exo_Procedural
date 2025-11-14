@@ -6,6 +6,14 @@ Change the Generation Method in the inspector
 <br><br><br>
 
 # What it does
+ 
+ 
+| Algorithm  | Description |
+| ------------- | ------------- |
+| Simple Room Placement | Generate rooms randomly in a set grid |
+| Binary Space Partition | Generate rooms recursively subdivides the grid to place the rooms |
+| Cellular Automata | Generate random terrain then evolve|
+| Noise | Generate random terrain |
 
 # How to Use
 Set the value then Play
@@ -49,7 +57,4 @@ Pingpong Strength <br>
 Domain Warp Type <br>
 Domain Warp <br>
 
-Water <br>
-Sand <br>
-Grass <br>
-Rock <br>
+Water/Sand/Grass/Rock<br>
