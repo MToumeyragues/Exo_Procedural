@@ -1,9 +1,9 @@
 # How to use Install
 
-Launch the project in Unity 6 <br>
+Launch the project in <a href="https://unity.com/fr/download">Unity</a> 6 <br>
 In the hierarchy click on the ProceduralGridGenerator <br>
 Change the Generation Method in the inspector
-<br><br><br>
+<br>
 
 # What it does
  
